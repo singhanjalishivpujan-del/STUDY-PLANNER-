@@ -102,3 +102,20 @@ li{
     background: #555;
     color: white;
 }
+button:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+input{
+    border-radius:10px;
+}
+
+.container{
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
